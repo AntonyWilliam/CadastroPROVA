@@ -1,0 +1,18 @@
+NECESSARIOS!
+JAVA 11
+SPRING TOOLS
+LOMBOK
+SPRING WEB
+BANCO DE DADOS H2
+
+
+ACESSO AO BANCO DE DADOS
+username = cadastro
+passwrod = cadastro
+
+server.port=8080
+#Banco de Dados que ser utilizado
+spring.devtools.livereload.port= 8081
+spring.datasource.url=jdbc:h2:mem:cadastro
+spring.datasource.username=cadastro
+spring.datasource.password=cadastro
